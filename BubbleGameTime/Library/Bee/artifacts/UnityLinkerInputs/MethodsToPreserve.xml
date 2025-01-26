@@ -1,0 +1,93 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Allupgrades">
+			<method name="AerospaceUpgrade"/>
+			<method name="AerospaceUpgrade"/>
+			<method name="AutoUpgrade"/>
+			<method name="AutoUpgrade"/>
+			<method name="EnergyUpgrade"/>
+			<method name="EnergyUpgrade"/>
+			<method name="EntertainmentUpgrade"/>
+			<method name="EntertainmentUpgrade"/>
+			<method name="FashionUpgrade"/>
+			<method name="FashionUpgrade"/>
+			<method name="HealthcareUpgrade"/>
+			<method name="HealthcareUpgrade"/>
+			<method name="RealEstateUpgrade"/>
+			<method name="RealEstateUpgrade"/>
+			<method name="TechUpgrade"/>
+			<method name="TechUpgrade"/>
+		</type>
+		<type fullname="CharacterSelection">
+			<method name="aerospaceSelected"/>
+			<method name="AutoSelected"/>
+			<method name="energySelected"/>
+			<method name="entertainmentSelected"/>
+			<method name="fashionSelected"/>
+			<method name="healthSelected"/>
+			<method name="realEstateSelected"/>
+			<method name="techSelected"/>
+		</type>
+		<type fullname="LadNextScene">
+			<method name="OnClick"/>
+		</type>
+		<type fullname="StockManager">
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+			<method name="BuyStock"/>
+		</type>
+		<type fullname="UpgradeLevelCounter">
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickLevelUp"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+			<method name="OnClickProtection"/>
+		</type>
+		<type fullname="UpgradeMenuController">
+			<method name="OnClick"/>
+			<method name="OnExitClick"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
